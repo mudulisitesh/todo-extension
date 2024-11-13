@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="todo-container">
+    <div class="header">
+      <h1>To-Do List</h1>
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="input-container">
+      <input type="text" id="task-input" placeholder="Add a new task..." />
+      <button id="add-task-button">+</button>
+    </div>
+    <ul id="task-list"></ul>
+    <button id="clear-all-button" class="clear-btn">Clear All</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
